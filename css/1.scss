@@ -1,0 +1,138 @@
+body{
+    font-family: 'Pacifico', cursive;
+    background-image: url("../image/background.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5vh;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#SearchBar{
+    position: absolute;
+    height: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    #Search{
+        background: rgba(53, 158, 190, 0.36);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.27);
+        width: 80%;
+        height: 100%;
+    }
+    button{
+        width: 100px;
+        height: 100%;
+        border-radius: 60px;
+        background: rgba(10, 44, 117, 0.36);
+        box-shadow: 0 4px 30px rgba(7, 61, 207, 0.1);
+        backdrop-filter: blur(1.3px);
+        -webkit-backdrop-filter: blur(1.3px);
+        border: 1px solid rgba(255, 255, 255, 0.27);
+        img{
+            height: 25px;
+        }
+    }
+    button:hover{
+        background: rgba(226, 12, 48, 0.36);
+    }
+}
+
+
+#Góra{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    #Góra-zawartosc{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        #Tytuł-div{
+            height: 30%;
+        }
+        #Stopnie{
+           font-size: 125px;
+            color: firebrick;
+            margin: 0px;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-top: -30px;
+        }
+        #Dzien{
+            margin-top: -20px;
+        }
+
+    }
+}
+#Środek{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    //
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10px;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+        p{
+            font-size: 20px;
+            margin: 0%;
+        }
+    }
+}
+#Dół{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    //
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 75px;
+            width: 75px;
+            background-color: rgba(53, 158, 190, 0.36);
+        }
+        p{
+            font-size: 20px;
+            margin: 0%;
+        }
+    }
+    #Opinia{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+}
