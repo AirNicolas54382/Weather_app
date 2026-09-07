@@ -1,0 +1,33 @@
+html, body {
+  height: 99%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Formularz {
+  background: rgb(34, 195, 34);
+  background: linear-gradient(135deg, red, #22c322);
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#Formularz h1 {
+  color: blue;
+}
+#Formularz #image img {
+  height: 20vh;
+  width: 20vh;
+}
+#Formularz #PHPodp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}/*# sourceMappingURL=Odbiór.css.map */
