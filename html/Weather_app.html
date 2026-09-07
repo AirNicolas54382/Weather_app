@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>weather app</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<!----------------------------SearchBar------------------------------->
+    <div id="SearchBar">
+        <input type="text" id="Search"><button onclick="pogoda()"><img src="../image/search.svg"></button>
+    </div>
+
+<!----------------------------Góra------------------------------->
+    <div id="Góra">
+        <div id="Góra-zawartosc">
+            <div id="Tytuł-div">
+                <h1 id="miasto">Bejing</h1>
+                <p>weather app</p>
+                <h1 id="Stopnie">3°</h1>
+                <h1 id="data">-</h1>
+            </div>
+        </div>
+    </div>
+
+<!----------------------------Środek------------------------------->
+    <div id="Środek">
+        <div>
+            <img src="../image/cloud.svg">
+            <p id="cloud">85%</p>
+        </div>
+        <div>
+            <img src="../image/visibility.svg">
+            <p id="visibility">40 mm</p>
+        </div>
+        <div>
+            <img src="../image/wind.svg">
+            <p id="wind">9km/h</p>
+        </div>
+        <div>
+            <img src="../image/humidity.svg">
+            <p id="humidity">0</p>
+        </div>
+        <div>
+            <img src="../image/pressure.svg">
+            <p id="pressure">7</p>
+        </div> 
+    </div>
+
+<!----------------------------Dół------------------------------->
+    <div id="Dół">
+        <div>
+            <p>Today</p>
+            <img id="0dzienImg">
+            <p id="0dzien"></p>
+        </div>
+        <div>
+            <p>Tomorrow</p>
+            <img id="1dzienImg">
+            <p id="1dzien"></p>
+        </div>
+        <div>
+            <p>After tomorrow</p>
+            <img id="2dzienImg">
+            <p id="2dzien"></p>
+        </div>
+        <div>
+            <p>In 3 days</p>
+            <img id="3dzienImg">
+            <p id="3dzien"></p>
+        </div>
+        <div>
+            <p>In 4 days</p>
+            <img id="4dzienImg">
+            <p id="4dzien"></p>
+        </div>
+        <div id="Opinia">
+            <a href="../php/Podstrona.php">Mountain Info</a>
+        </div>
+    </div>
+</body>
+<script src="../javascript/1.js"></script>
+</html>
