@@ -47,7 +47,7 @@ Additionally, to meet specific project requirements, the app includes a dedicate
 *   **Frontend:** HTML5, CSS3, SCSS, JavaScript (ES6+)
 *   **Backend:** PHP
 *   **Database:** MySQL
-*   **External Data:** [Insert Weather API Name, e.g., OpenWeatherMap API]
+*   **External Data:** OpenWeather
 
 ---
 
